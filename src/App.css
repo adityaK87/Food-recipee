@@ -1,0 +1,56 @@
+.app{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+
+.app_search{
+border: 2px solid black;
+width: 200px;
+margin-top: 10px;
+padding: 10px;
+text-align: center;
+border-radius: 4px;
+}
+.app_submit{
+  border: 2px solid black;
+  width: 100px;
+  margin-left: 10px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: aqua;
+
+  
+}
+.app_submit:hover{
+  border: 2px solid aqua;
+  width: 100px;
+  margin-left: 10px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+  color: aqua;
+  background-color: black;
+
+  
+}
+.app_healthLabels{
+  border: 2px solid black;
+  width: 100px;
+  margin-left: 10px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+  text-align: center;
+  }
+
+
+.food{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 250px 250px;
+  align-items: baseline;
+  justify-content: center;
+}
